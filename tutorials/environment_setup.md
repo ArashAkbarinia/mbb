@@ -16,9 +16,25 @@ The first time you have to update all packages:
 
 Python is already installed in WSL.
 
+## libgl error
+
 To use some of the computer vision libraries in WSL you need to install `libgl`:
 
     sudo apt install --yes libgl1-mesa-dev
+
+## cuda error
+
+If your notebooks crash when calling the `cuda()` function and egt this error: 
+`Could not load library libcudnn_cnn_infer.so.8.` The solution is add the library to 
+[*.bashrc file*](https://discuss.pytorch.org/t/libcudnn-cnn-infer-so-8-library-can-not-found/164661).
+
+Go to your file browser, navigate to `Linux/Ubuntu/home/<user_name>`, open the `.bashrc`file and add
+this line to the end of the file:
+
+    export LD_LIBRARY_PATH=/usr/lib/wsl/lib:$LD_LIBRARY_PATH
+
+Restart all Ubuntu terminals and the issue should be resolved.
+
 
 # Virtual environment
 
