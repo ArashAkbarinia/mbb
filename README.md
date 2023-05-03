@@ -25,3 +25,9 @@ In this session we create a complete DNN project by constructing our own archite
 We train our network for a simple classification problem.
 
  * [Assignment 2](notebooks/assignment2.ipynb)
+
+
+## 3. [Optimisation and learning](notebooks/optimisation_learning.ipynb)
+
+In this session we learn how a network acquire its knowledge and tune its weights to perform a certain task.
+We train our network for binary classification of a toy example.
