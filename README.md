@@ -38,3 +38,9 @@ In this session, we learn how a network acquires its knowledge and tunes its wei
 certain task by exploring different loss functions in toy examples of 2D points.
 
  * [Assignment 3](notebooks/assignment3.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/assignment3.ipynb)
+
+
+## 5. [Vision](notebooks/optimisation_learning.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/vision.ipynb)
+
+
+In this session, we learn about the task of semantic segmentation (i.e., having a label for each pixel). We train a network to perform this task and we look into transfer-learning.
