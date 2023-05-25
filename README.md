@@ -44,3 +44,10 @@ certain task by exploring different loss functions in toy examples of 2D points.
 
 
 In this session, we learn about the task of semantic segmentation (i.e., having a label for each pixel). We train a network to perform this task and we look into transfer-learning.
+
+## 5. Deep generative models
+
+In this session, we learn about deep generative models that can learn the distribution of data to generate new samples. We will explore three major generative models:
+ * [Generative Adversarial Networks (GAN)](notebooks/gan.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/gan.ipynb)
+ * [Variational Autoencoders (VAE)](notebooks/vae.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/vae.ipynb)
+ * [Deep Probabilistic Models (DPM)](notebooks/dpm.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/dpm.ipynb)
