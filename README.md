@@ -51,7 +51,7 @@ box of deep neural networks? We will explore three techniques:
  * [Kernel Lesioning](notebooks/lesion.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/lesion.ipynb)
  * [Probing with Linear Classifiers](notebooks/linear_classifier_probe.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/linear_classifier_probe.ipynb)
 
-## 8. [Deep learning Python Script](tutorials/python_script/README.md)
+## 8. [Python scripts for deep learning projects](tutorials/python_script/README.md)
 
 In this session, we learn how to create a Python module that can be executed with a script on a GPU 
 server. We explore the same code as last session (*Probing with Linear Classifiers*).
