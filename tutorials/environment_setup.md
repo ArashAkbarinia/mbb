@@ -24,8 +24,8 @@ To use some of the computer vision libraries in WSL you need to install `libgl`:
 
 ## cuda error
 
-If your notebooks crash when calling the `cuda()` function and egt this error: 
-`Could not load library libcudnn_cnn_infer.so.8.` The solution is add the library to 
+If your notebooks crash when calling the `cuda()` function and get this error: 
+`Could not load library libcudnn_cnn_infer.so.8.` The solution is to add the library to 
 [*.bashrc file*](https://discuss.pytorch.org/t/libcudnn-cnn-infer-so-8-library-can-not-found/164661).
 
 Go to your file browser, navigate to `Linux/Ubuntu/home/<user_name>`, open the `.bashrc`file and add
@@ -38,9 +38,9 @@ Restart all Ubuntu terminals and the issue should be resolved.
 
 # Virtual environment
 
-Virtual environment is a modular solution to install an independent set of packages for 
+A virtual environment is a modular solution to install an independent set of packages for 
 different purposes. A "virtual environment" is essentially a single folder that does not affect 
-the whole system, and it can easily be deleted.
+the whole system and can easily be deleted.
 
 
 To install a virtual environment with `pip`, you should follow [the official installation guide]
@@ -71,7 +71,7 @@ To access this environment, you should activate it in the terminal:
 
 If activated successfully, you see on the left side of your terminal the name `(mbb)`.
 
-<span style="color:red">**Important Note**</span>. You should always remember to activate the virtual 
+<span style="color:red">**Important Note**</span>. You must always remember to activate the virtual 
 environment, for example, before installing any package with pip. Otherwise, it's installing it in 
 another environment.
 
@@ -92,9 +92,9 @@ To run the tutorial codes, we will use the PyTorch framework that can be install
 
     pip install torch torchvision torchaudio
 
-Importantly, if you get an `ImportError: No module named X` in a paython script. The solution is
-often easy and correct pip installation command can be found by googling.
+Importantly, if you get an `ImportError: No module named X` in a Python script. The solution is
+often easy and correct pip installation commands can be found by googling.
 
-For instance `ImportError: No module named cv2` can be resolved by installing `opencv-python:
+For instance `ImportError: No module named cv2` can be resolved by installing `opencv-python`:
 
     pip install opencv-python 
