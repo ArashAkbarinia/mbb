@@ -5,6 +5,8 @@ at JLU Giessen.
 
 Instructor: [Arash Akbarinia](https://arashakbarinia.github.io/)
 
+**I have compiled these materials into a Jupyter Book: https://deeplearning-jupyterbook.github.io/**
+
 ## 1. [Setting up a deep learning environment](tutorials/environment_setup.md)
 
 The prerequisite to continue with the rest of the materials is to set up a deep learning
