@@ -13,7 +13,7 @@ To execute this code, first, we have to activate our virtual environment contain
 packages like PyTorch (check the [environment setup tutorial](../environment_setup.md)).
 
 
-Assuming you are already in the *server* directory where the `deepcsf` module is, to train a
+Assuming you are already in the *python_script* directory where the `deepcsf` module is, to train a
 network:
 
     python main.py
