@@ -183,7 +183,7 @@ On the server run:
 
     jupyter notebook --no-browser --port=<REMOTE_PORT>
 
-This is similar to how we start a `jupyter notebook/lab` on local machine with an extra argument of
+This is similar to how we start a `jupyter notebook/lab` on a local machine with an extra argument of
 `--no-browser`  that starts the notebook without opening a browser.
 
 Note that the port `<REMOTE_PORT>` you selected might not be the one that gets assigned to you 
@@ -206,9 +206,10 @@ You may be asked to enter a token (see above).
 
 ## TensorBoard
 
-Similar to the jupyter, you can start the `tensorboard` on the server and open it on your local
-browser.
+Similar to Jupyter, you can start the `tensorboard` on the server and open it on your local
+browser. There are two options. 
 
+###  "No particular address" placeholder
 
 On the server run:
 
@@ -218,6 +219,21 @@ On the browser of your local computer:
 
     http://<SERVER_IP>:<REMOTE_PORT>/
 
+Some servers' firewall block this method. If this is the case, use the local port forwarding. 
+
+### Local port forwarding
+
+On the server run:
+
+    tensorboard --logdir <LOG_DIR> --port <REMOTE_PORT>
+
+On local terminal:
+
+    ssh -L <LOCAL_PORT>:localhost:<REMOTE_PORT> <REMOTE_USER>@<SERVER_IP>
+
+On the browser of your local computer:
+
+    http://localhost:<LOCAL_PORT>/
 
 ## Tmux
 
