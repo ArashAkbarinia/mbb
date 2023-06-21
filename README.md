@@ -40,7 +40,8 @@ pixel). We train a network to perform this task and we look into transfer-learni
 
 ## 6. Deep generative models
 
-In this session, we learn about deep generative models that can learn the distribution of data to generate new samples. We will explore three major generative models:
+In this session, we learn about deep generative models that can learn the distribution of data to 
+generate new samples. We will explore three major generative models:
  * [Generative Adversarial Networks (GAN)](notebooks/gan.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/gan.ipynb)
  * [Variational Autoencoders (VAE)](notebooks/vae.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/vae.ipynb)
  * [Diffusion Probabilistic Models (DPM)](notebooks/dpm.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/dpm.ipynb)
@@ -57,3 +58,9 @@ box of deep neural networks? We will explore three techniques:
 
 In this session, we learn how to create a Python module that can be executed with a script on a GPU 
 server. We explore the same code as last session (*Probing with Linear Classifiers*).
+
+## 9 Other modalities
+
+In this session, we move from vision to other modalities (audio and text) and learn how to use deep 
+networks for these modalities in a simple classification problem:
+ * [Audio](notebooks/audio_classification.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/audio_classification.ipynb)
