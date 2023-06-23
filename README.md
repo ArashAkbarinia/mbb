@@ -64,3 +64,4 @@ server. We explore the same code as last session (*Probing with Linear Classifie
 In this session, we move from vision to other modalities (audio and text) and learn how to use deep 
 networks for these modalities in a simple classification problem:
  * [Audio](notebooks/audio_classification.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/audio_classification.ipynb)
+ * [Text](notebooks/text_classification.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/text_classification.ipynb)
