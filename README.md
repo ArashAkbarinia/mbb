@@ -67,7 +67,7 @@ networks for these modalities in a simple classification problem. We also look a
  * [Text](notebooks/text_classification.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/text_classification.ipynb)
  * [Language – Vision](notebooks/clip.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/clip.ipynb)
 
-## 10. [Reinforcement learning(notebooks/reinforcement_learning.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/reinforcement_learning.ipynb)
+## 10. [Reinforcement learning](notebooks/reinforcement_learning.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/reinforcement_learning.ipynb)
 
 In this session, we learn about the reinforcement learning paradigm in which an agent
 interacts with the environment and learns what the best policy is. 
