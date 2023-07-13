@@ -33,7 +33,7 @@ certain task by exploring different loss functions in toy examples of 2D points.
 
  * [Assignment 3](notebooks/assignment3.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/assignment3.ipynb)
 
-## 5. [Vision](notebooks/optimisation_learning.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/vision.ipynb)
+## 5. [Vision](notebooks/vision.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/vision.ipynb)
 
 In this session, we learn about the task of semantic segmentation (i.e., having a label for each 
 pixel). We train a network to perform this task and we look into transfer-learning.
@@ -59,10 +59,15 @@ box of deep neural networks? We will explore three techniques:
 In this session, we learn how to create a Python module that can be executed with a script on a GPU 
 server. We explore the same code as last session (*Probing with Linear Classifiers*).
 
-## 9 Other modalities
+## 9. Other modalities
 
 In this session, we move from vision to other modalities (audio and text) and learn how to use deep 
 networks for these modalities in a simple classification problem. We also look at a multi-modal network:
  * [Audio](notebooks/audio_classification.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/audio_classification.ipynb)
  * [Text](notebooks/text_classification.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/text_classification.ipynb)
  * [Language – Vision](notebooks/clip.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/clip.ipynb)
+
+## 10. [Reinforcement learning(notebooks/reinforcement_learning.ipynb) [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArashAkbarinia/mbb/blob/main/notebooks/reinforcement_learning.ipynb)
+
+In this session, we learn about the reinforcement learning paradigm in which an agent
+interacts with the environment and learns what the best policy is. 
